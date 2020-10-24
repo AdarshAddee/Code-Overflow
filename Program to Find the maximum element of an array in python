@@ -1,0 +1,15 @@
+#author = Adarsh Gupta
+#purpose = find the maximum element in array in python
+
+arr = [12, 23, 50, 34, 45]
+
+maximum = arr[0]
+
+length = len(arr)
+
+for i in range(0, length):
+	if arr[i] > maximum:
+		maximum = arr[i]
+		
+print(maximum)
+
